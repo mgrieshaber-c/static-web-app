@@ -1,0 +1,84 @@
+<!-- 
+    index.html
+    04/13/2023
+    Matt Grieshaber
+    IT3240
+    This is the 'home' page of my personal portfolio site.
+    It will contian a brief introduction.
+-->
+<!-- Start with the DOCTYPE. For HTML5, it's simply 'html'. -->
+<!DOCTYPE html>
+<!-- 
+    Use the HTML tag to contain all page information.
+    The lang attribute will assist accessability tools like a screen reader. 
+-->
+<html lang="en">
+<!-- The head will contain informaion about the HTML file. -->
+<head>
+    <meta charset="utf-8" />
+    <img src="images/mg-logo.jpg" alt="Matt Grieshaber's Logo" />
+    <title>Matt Grieshaber - Personal Portfolio</title>
+    <!-- 
+        Link to an external stylesheet so it can be referenced in every HTML file.
+        This will eliminite duplication of CSS elements, and simplify updates to CSS. 
+    -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+</head>
+<!-- The document content goes in the body -->
+<body>
+    <header>
+        <hgroup>
+            <h1>Matt Grieshaber</h1>
+        </hgroup>
+        <nav>
+            <!-- This unordered list will be formatted with CSS to make the navigation bar -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">My Interests</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 
+        This is the START of the main content section of the page.
+        do not edit above this comment. 
+    -->
+    <main>
+        <section>
+            <h2>
+                Portfolio 
+            </h2>
+            <article>
+                <h3>
+                    Welcome to my personal portfolio website!
+                </h3>
+                <p>
+                    I’m Matt Grieshaber. I live in Fairport, NY with my wife (Minh) and kids (Aiden, Luke, & Reece). Aiden is no longer at home, but he’s nearby on the Rochester Institute of Technology campus. I like cooking, running, and spending time with my family. 
+                </p>
+                <p>
+                    In 1999, is started my third career. This time, in information technology. I have worked as an engineer in the fields of biology, chemistry, finance, e-commerce, education, health care, human resources, manufacturing, marketing, and microelectronics.
+                </p>
+                <p>
+                    So, why does the logo on the top of the page say IMonkey? Because from 2001 to 2010, ITmonkey was the name of my IT services business.
+                </p>
+                <figure>
+                    <img src="images/GrieshaberFamily.jpg" alt="The Grieshaber Family" /><br />
+                    <figcaption>
+                        Left to right: Reece, Minh, Aiden, Matt, &amp; Luke
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <!--
+        This is the END of the main content section of the page.
+        do not edit below this comment. 
+    -->
+    <!-- The footer is a good place for copyright notices and secondary navigation. -->
+    <footer>
+        Copyright &copy; 2023 Matt Grieshaber
+    </footer>
+</body>
+</html>
